@@ -1,7 +1,9 @@
-Run following commands to install ns2.35 on Ubuntu 24.04
+Note in shell script ns2_XX.sh : Here XX indiacates ubuntu version so download script file based on your ubuntu version.
 
-wget https://raw.githubusercontent.com/gith-karan/ns2.35/refs/heads/main/ns2_24.sh
+Run following commands to install ns2.35 on Ubuntu 24 and 22
 
-chmod +x ns2_24.sh
+wget https://raw.githubusercontent.com/gith-karan/ns2.35/refs/heads/main/ns2_XX.sh
 
-source ns2_24.sh
+chmod +x ns2_XX.sh
+
+source ns2_XX.sh
